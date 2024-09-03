@@ -76,7 +76,28 @@ console.log("Now The Value Will be 10 but the answer will 14 ", a);
 a -= 4;
 console.log("Now The Value Will be 10 but the answer will 6 ", a);
 
-
-//  Comparison Operator 
+//  Comparison Operator
 //  Equal To ==
 //  Not Equal To !=
+//  Equal To Operator Example
+console.log("IS a Is Equal To b", a == b);
+console.log("Is a Is Not Equal To B ", a != b);
+let w = 9;
+let z = 10;
+console.log("Is W Is Equal To Z ", w == z);
+// >, <, >=, <=
+console.log("Is 10 > 20", a > b);
+console.log("Is 10 < 20", a < b);
+console.log("Is 10 >= 20", a >= b);
+console.log("Is 10 <= 20", a <= b);
+
+// Logical Operators
+// Logical And (&&) both true hona zaroori heyn ( 1 b false to sari false )
+// Logical Not (!) 
+// Logical Or (||) 1 ka true hona zaroori hay
+
+// ----------------------------
+// Example Of// Logical And (&&) both true hona zaroori heyn
+let cond1 = w == z;
+let cond2 = w < z;
+console.log("Cond 1 && Cond 2 ", cond1 && cond2);
