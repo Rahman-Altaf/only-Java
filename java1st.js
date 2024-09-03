@@ -19,21 +19,64 @@
 // primitive data types are - number, string , null ,undefined , boolean ,symbol , bigint
 // non-primitive data types - objects
 // object is a collection of data  ( or objects mey key value store hota hay like age : 24 or ye curly braces mey hota hay)
-// key value ko access karny k 2 tareeqay heyn obj.key value name // OR // obj["key value name "] see example 
+// key value ko access karny k 2 tareeqay heyn obj.key value name // OR // obj["key value name "] see example
 //  See Example
 
-const student = {
-  name: "Rahman",
-  age: 24,
-  salary: 35000,
-  hours: 8,
-};
-// how to add value in key pair out of block scope 
-// see example 
+// const student = {
+//   name: "Rahman",
+//   age: 24,
+//   salary: 35000,
+//   hours: 8,
+// };
+// // how to add value in key pair out of block scope
+// // see example
 
-student["age"] = student["age"] + 1;
-student["name"]= "Rahman Altaf"
-// example of accessing key values 
-console.log(student.age);
-console.log(student["name"]);
-// student();
+// student["age"] = student["age"] + 1;
+// student["name"]= "Rahman Altaf"
+// // example of accessing key values
+// console.log(student.age);
+// console.log(student["name"]);
+// // student();
+
+let a = 10;
+let b = 20;
+console.log("The Value Of A = ", a, "The Value Of B is = ", b);
+console.log("Addition Of A & B Is = ", a + b);
+console.log("Subtraction Of A & B Is = ", a - b);
+console.log("Multiplication Of A & B Is = ", a * b);
+console.log("Division Of A & B Is = ", a / b);
+console.log("Modulus Of A & B Is = ", a % b);
+console.log("Exponentiation Of A & B Is = ", a ** b);
+// Uniary Operator Increment And Decrement ( Post And Pre Increment And Decrement)
+// Pre Inncrement change Value First than Print See Example
+console.log(
+  "The Actual Value Of A Is 10 but according to Pre Increment The Value Will be 11 ",
+  ++a
+);
+// as it is Decrement
+console.log(
+  "The Actual Value Of A Is 10 but according to Pre Decrement The Value Will be 9 ",
+  --a
+);
+//  As it is Post Increment ( The Value Will Change After Implimenting For Example it print first the actual
+// value and then do increment or decrement )
+console.log(
+  "The Actual Value of B Is 20 And it print 20 because it is post increment So The Answer Will Be 20 ",
+  b++
+);
+// As It Is Decrement
+console.log(
+  "The Actual Value of B Is 20 And it print 20 because it is post Decrement So the Answer Will be 20 ",
+  b--
+);
+
+// Assignment Operator
+a += 4;
+console.log("Now The Value Will be 10 but the answer will 14 ", a);
+a -= 4;
+console.log("Now The Value Will be 10 but the answer will 6 ", a);
+
+
+//  Comparison Operator 
+//  Equal To ==
+//  Not Equal To !=
