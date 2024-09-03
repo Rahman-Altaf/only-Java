@@ -119,26 +119,75 @@ let z = 10;
 // --------------------------------------------------------------------------------------------------------------
 // Conditional Statement
 // If Statement
-// If Else Statement
+// ELSE IF STATEMENT
 // --------------------------------------------------------------------------------------------------------------
 
-// If Statement
-if (w > z) {
-  console.log(z, "Z Is Greater Than w");
-}
+// // If Statement
+// if (w > z) {
+//   console.log(z, "Z Is Greater Than w");
+// }
 
 // Example Of // If Else Statement  2 Best Example
 // Vote Example
-let age = 13;
-if (age >= 18) {
-  console.log("You Can Vote");
-} else {
-  console.log("You Can Not Vote Because You Are Under Age And Your Age Is ",age);
-}
-//  Next Example Of IS STATEMENT IS ODD AND EVEN NUMBER 
-let num = 26
-if (num % 2 == 0) {
-  console.log(num, "This Number Is Even");
-} else {
-  console.log(num,"This Number Is Odd")
-}
+// let age = 13;
+// if (age >= 18) {
+//   console.log("You Can Vote");
+// } else {
+//   console.log("You Can Not Vote Because You Are Under Age And Your Age Is ",age);
+// }
+//  Next Example Of IS STATEMENT IS ODD AND EVEN NUMBER
+// let num = 26
+// if (num % 2 == 0) {
+//   console.log(num, "This Number Is Even");
+// } else {
+//   console.log(num,"This Number Is Odd")
+// }
+
+// EXAMPLE OF ELSE IF STATEMENT
+// let coinName = "Bit Coin";
+// let coin = 70;
+// if (coin == 200) {
+//   console.log("Purchase This coin", coinName);
+// } else if (coin <= 250) {
+//   console.log(
+//     "Not Best Time to Purchase Coin Wait for It Because Price Is Higher Than 250",
+//     coin
+//   );
+// } else if (coin > 300) {
+//   console.log("Don't Buy This Coin Price Is Too Higher Than 280 ", coin);
+// } else {
+//   console.log("Purchase Right Now Because Price is Too Low To Buy", coin);
+// }
+
+// // Another Example Of Color
+// mode = "silver";
+// let color;
+// if (mode === "Dark") {
+//   color: "blue";
+//   console.log("blue");
+// } else if (mode === "pink") {
+//   color: "pink";
+//   console.log("Pink");
+// } else if (mode === "brown") {
+//   color: "brown";
+//   console.log("Brown");
+// } else {
+//   color: "White";
+//   console.log("White");
+// }
+
+// console.log(color);
+
+// --------------------------------------------------------------------------------------------------------------
+// Turnary Operator ( Is mey [a?b:c ] a k pas koi condition hay for example 10>5 ab jab ye true
+// ho gi to (b) return ho ga nhe to (C))
+//  Example Of Turnary Operator
+//  2 methods to write turnary operator and get value via console
+// 1st Turnary operator ko 1 variable mey store karwana
+let age = 25;
+let result = age >= 18 ? "Adult" : "Not Adult ";
+console.log(result);
+
+// 2nd way to write Turnary Operator Via using console.log without saving in a variable
+let age1 = 17;
+age1 >= 18 ? console.log("Adult") : console.log("Not Adult ");
