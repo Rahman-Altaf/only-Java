@@ -184,10 +184,41 @@ let z = 10;
 //  Example Of Turnary Operator
 //  2 methods to write turnary operator and get value via console
 // 1st Turnary operator ko 1 variable mey store karwana
-let age = 25;
-let result = age >= 18 ? "Adult" : "Not Adult ";
-console.log(result);
+// let age = 25;
+// let result = age >= 18 ? "Adult" : "Not Adult ";
+// console.log(result);
 
-// 2nd way to write Turnary Operator Via using console.log without saving in a variable
-let age1 = 17;
-age1 >= 18 ? console.log("Adult") : console.log("Not Adult ");
+// // 2nd way to write Turnary Operator Via using console.log without saving in a variable
+// let age1 = 17;
+// age1 >= 18 ? console.log("Adult") : console.log("Not Adult ");
+
+// ***************
+// ***************
+// PRACTICE 1 For Getting a number to user via prompt and check its multiple of 5 ?
+// let numb = prompt("Enter A Number");
+// console.log("You Enter A Number ", numb);
+// if (numb % 5 === 0) {
+//   console.log("Yes Given Number Is The Multiple Of 5");
+// } else {
+//   console.log("Sorry Given Number is Not Multiple Of 5");
+// }
+
+// ***************
+// ***************
+// PRACTICE 2 For Grading System Of Student Passing Marks And Grade
+
+let numb = prompt("Enter Your Marks");
+console.log("Lets Check Your Grade Here");
+if (numb >= 80 && numb <= 100) {
+  console.log("Congratulation Your Pass Your Exam With Grade A ");
+} else if (numb >= 70 && numb <= 89) {
+  console.log("Congratulation Your Pass Your Exam With Grade B ");
+} else if (numb >= 60 && numb <= 69) {
+  console.log("Congratulation Your Pass Your Exam With Grade C");
+} else if (numb >= 50 && numb <= 59) {
+  console.log("Congratulation Your Pass Your Exam With Grade D");
+} else if (numb >= 40 && numb <= 49) {
+  console.log("Congratulation Your Pass Your Exam With Grade F");
+} else {
+  console.log("Sorry You Failed Try Again Later");
+}
