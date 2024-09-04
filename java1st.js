@@ -230,6 +230,8 @@ let z = 10;
 // Infinite Loop
 // While Loop ( loop can check the condition in start)
 // do while loop ( at least run once either condition is true or false )
+// For of Loop
+//  For in Loop
 
 // --------------------------------------------------------------------------------------------------------------
 
@@ -248,8 +250,68 @@ let z = 10;
 
 // While Loop
 
-let i = 0;
-while (i <= 5) {
-  console.log("The Value Of I Is = ", i);
-  i++;
+// let i = 0;
+// while (i <= 5) {
+//   console.log("The Value Of I Is = ", i);
+//   i++;
+// }
+
+// // Do While Loop
+
+// let i = 25;
+// do {
+//   console.log(i);
+//   i--;
+// } while (i >= 20);
+
+// For-of Loop
+
+// let names = "Java Script";
+// let length = 0;
+// for (i of names) {
+//   console.log(i);
+//   length++;
+// }
+// console.log("Lenght Of String Is = ", length);
+
+// For In loop to find out the key and the key value
+// let student = {
+//   name: "Rahman" ,
+//   age: 26,
+//   salary: 500000,
+//   hours: 9,
+
+// }
+// for (let key in student) {
+//   console.log("Key And Its Value Are = ", key," ", "-->>", student[key] )
+// }
+
+// ****************************
+// Practice Question 1 TO PRINT 0 TO 100 EVEN NUMBER
+// ****************************
+// let numb = 100;
+// for (i = 0; i <= numb; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// // odd Number
+
+// let numbe = 100;
+// for (i = 0; i <= numbe; i++) {
+//   if (i % 2 != 0) {
+//     console.log(i);
+//   }
+// }
+
+// ****************************
+// Practice Question 2 ITS A GAME To Ask A RANDOM NUMBER TO USER AND CHECK USER ENTER WRITE NUMBER OR NOT ?
+// ****************************
+let randomnumber = 99;
+let number = prompt(" Enter A Number 0 to 99 ");
+console.log("You Entered A Number", number);
+while (number != randomnumber) {
+  number = prompt("Your Entered Wrong Number");
 }
+console.log("Congratulation You Won The Prize");
