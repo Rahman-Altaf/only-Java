@@ -308,10 +308,45 @@ let z = 10;
 // ****************************
 // Practice Question 2 ITS A GAME To Ask A RANDOM NUMBER TO USER AND CHECK USER ENTER WRITE NUMBER OR NOT ?
 // ****************************
-let randomnumber = 99;
-let number = prompt(" Enter A Number 0 to 99 ");
-console.log("You Entered A Number", number);
-while (number != randomnumber) {
-  number = prompt("Your Entered Wrong Number");
-}
-console.log("Congratulation You Won The Prize");
+// let randomnumber = 99;
+// let number = prompt(" Enter A Number 0 to 99 ");
+// console.log("You Entered A Number", number);
+// while (number != randomnumber) {
+//   number = prompt("Your Entered Wrong Number");
+// }
+// console.log("Congratulation You Won The Prize");
+
+// --------------------------------------------------------------------------------------------------------------
+
+//  STRINGS
+
+// --------------------------------------------------------------------------------------------------------------
+
+// let str = "Rahman ";
+// let len = str[0];
+// console.log(str);
+// console.log(len);
+// for (i = 0; i <= str.length; i++) {
+//   console.log(str);
+// }
+
+// Template Literals ( Using Back Ticks)
+
+// let str = `Rahman`;
+// console.log(str);
+
+
+//  String Interpolation (adding place holder/ expression in string via ${})
+
+//  Example Of String Interpolation
+let stud = {
+  name: `Rahman `,
+  salary: 50000,
+  age: 25,
+  duty_hours: 8,
+};
+console.log(
+  `My Name Is ${stud.name} And My Age is ${stud.age} And My Salary Is ${
+    stud.salary * 2
+  } And My Duty Hour Is ${stud.duty_hours - 4}`
+);
