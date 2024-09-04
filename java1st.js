@@ -335,18 +335,51 @@ let z = 10;
 // let str = `Rahman`;
 // console.log(str);
 
-
 //  String Interpolation (adding place holder/ expression in string via ${})
+// Escape Character \n (new line ) , \t (tab like spaces)
+//  Example Of String Interpolation + Escape Character ;
 
-//  Example Of String Interpolation
-let stud = {
-  name: `Rahman `,
-  salary: 50000,
-  age: 25,
-  duty_hours: 8,
-};
-console.log(
-  `My Name Is ${stud.name} And My Age is ${stud.age} And My Salary Is ${
-    stud.salary * 2
-  } And My Duty Hour Is ${stud.duty_hours - 4}`
-);
+// let stud = {
+//   name: `Rahman `,
+//   salary: 50000,
+//   age: 25,
+//   duty_hours: 8,
+// };
+// console.log(
+//   `My Name Is ${stud.name} \n And My Age is ${stud.age}\n And My Salary Is ${
+//     stud.salary * 2
+//   } \n And My Duty Hour Is ${stud.duty_hours - 4}`
+// );
+
+// STRING METHODS
+// UPPER CASE / LOWER CASE / TRIM
+
+// EXAMPLE
+// let str = "JaVA Scrip     t ";
+// let numb = "123456789"
+// let str1 = str.toUpperCase();
+// let str2 = str.toLowerCase();
+// let str3 = str.trim()
+// let str4 = str.trimStart();
+// let str5 = str.trimEnd();
+// let str6 = numb.slice(2, 6)
+// let str7 = str.concat(numb)
+// let str8 = str.replace("Ja", "12")
+// let str9 = str.charAt(2)
+// console.log(
+//   `${str1}\n ${str1}\n ${str2}\n ${str3}\n ${str4}\n ${str5}\n ${str6} \n ${str7} \n ${str8} \n ${str9}`
+// );
+
+// *********************
+// PRACTICE QUESTION OF USER NAME FROM PROMP AND CONCATINATE @ AND STRING FULL LENGTH
+// *********************
+
+
+// let fullname = prompt("Enter Your Full Name ");
+// console.log(`Your fullname Is ${fullname}`);
+// let str = "@";
+// // let len = str.length
+// let username = console.log(
+//   str.concat(fullname + fullname.length)
+// );
+// console.log(username);
