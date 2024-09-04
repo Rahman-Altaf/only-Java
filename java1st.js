@@ -207,18 +207,49 @@ let z = 10;
 // ***************
 // PRACTICE 2 For Grading System Of Student Passing Marks And Grade
 
-let numb = prompt("Enter Your Marks");
-console.log("Lets Check Your Grade Here");
-if (numb >= 80 && numb <= 100) {
-  console.log("Congratulation Your Pass Your Exam With Grade A ");
-} else if (numb >= 70 && numb <= 89) {
-  console.log("Congratulation Your Pass Your Exam With Grade B ");
-} else if (numb >= 60 && numb <= 69) {
-  console.log("Congratulation Your Pass Your Exam With Grade C");
-} else if (numb >= 50 && numb <= 59) {
-  console.log("Congratulation Your Pass Your Exam With Grade D");
-} else if (numb >= 40 && numb <= 49) {
-  console.log("Congratulation Your Pass Your Exam With Grade F");
-} else {
-  console.log("Sorry You Failed Try Again Later");
+// let numb = prompt("Enter Your Marks");
+// console.log("Lets Check Your Grade Here");
+// if (numb >= 80 && numb <= 100) {
+//   console.log("Congratulation Your Pass Your Exam With Grade A ");
+// } else if (numb >= 70 && numb <= 89) {
+//   console.log("Congratulation Your Pass Your Exam With Grade B ");
+// } else if (numb >= 60 && numb <= 69) {
+//   console.log("Congratulation Your Pass Your Exam With Grade C");
+// } else if (numb >= 50 && numb <= 59) {
+//   console.log("Congratulation Your Pass Your Exam With Grade D");
+// } else if (numb >= 40 && numb <= 49) {
+//   console.log("Congratulation Your Pass Your Exam With Grade F");
+// } else {
+//   console.log("Sorry You Failed Try Again Later");
+// }
+
+// --------------------------------------------------------------------------------------------------------------
+// Loops and Strings Chapter 3
+// Loop :- To execute again and again
+// For Loop
+// Infinite Loop
+// While Loop ( loop can check the condition in start)
+// do while loop ( at least run once either condition is true or false )
+
+// --------------------------------------------------------------------------------------------------------------
+
+// For Loop
+// let title = "Rahman";
+// for (i = 1; i <= 5; i++) {
+//   console.log(title);
+// }
+
+// let sum = 0;
+// for (i = 0; i <= 100; i++) {
+//   sum = sum + i;
+//   console.log(sum);
+// }
+// console.log(sum);
+
+// While Loop
+
+let i = 0;
+while (i <= 5) {
+  console.log("The Value Of I Is = ", i);
+  i++;
 }
