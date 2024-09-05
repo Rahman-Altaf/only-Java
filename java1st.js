@@ -374,7 +374,6 @@ let z = 10;
 // PRACTICE QUESTION OF USER NAME FROM PROMP AND CONCATINATE @ AND STRING FULL LENGTH
 // *********************
 
-
 // let fullname = prompt("Enter Your Full Name ");
 // console.log(`Your fullname Is ${fullname}`);
 // let str = "@";
@@ -383,3 +382,23 @@ let z = 10;
 //   str.concat(fullname + fullname.length)
 // );
 // console.log(username);
+
+// **************
+// ARRAYS
+// **************
+arr = [53, 63, 24, 45, 65, 34];
+length = arr.length;
+index0 = arr[0];
+arr[2] = 66;
+for (i = 0; i <= arr.length; i++) {
+    console.log(arr[i]);
+}
+// console.log(arr);
+// console.log(length);
+console.log(index0);
+
+if (index0 % 2 === 0) {
+  console.log("Index Of Arr 0 Is modulus Of 2");
+} else {
+  console.log("Index Of Arr 0 Is Not modulus Of 2");
+}
