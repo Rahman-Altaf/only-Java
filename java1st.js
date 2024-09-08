@@ -492,10 +492,10 @@
 //  Remove First company name 
 // Remove Uber and Add Ola
 // Add Amazon at the end 
-let arr = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"]
-let deleted = arr.shift()
-console.log(arr)
-let removed = arr.splice(1, 1, "Ola")
-console.log(arr)
-let addition = arr.pop()
-console.log(arr)
+// let arr = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"]
+// let deleted = arr.shift()
+// console.log(arr)
+// let removed = arr.splice(1, 1, "Ola")
+// console.log(arr)
+// let addition = arr.pop()
+// console.log(arr)
