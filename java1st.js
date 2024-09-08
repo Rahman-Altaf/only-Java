@@ -481,8 +481,21 @@
 // console.log(arr)
 
 // SPLICE MEHTOD
-let arr = [1, 2, 3, 4, 5];
-console.log(arr.splice(3, 1, 88));
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.splice(3, 1, 88));
+// console.log(arr)
+// let array = arr.splice(1, 2, 99, 89);
+// console.log(array);
+
+// Practice QUESTION 1 
+// Add Companies Name 
+//  Remove First company name 
+// Remove Uber and Add Ola
+// Add Amazon at the end 
+let arr = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"]
+let deleted = arr.shift()
 console.log(arr)
-let array = arr.splice(1, 2, 99, 89);
-console.log(array);
+let removed = arr.splice(1, 1, "Ola")
+console.log(arr)
+let addition = arr.pop()
+console.log(arr)
