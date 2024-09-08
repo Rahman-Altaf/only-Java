@@ -81,9 +81,9 @@
 // //  Not Equal To !=
 // //  Equal To Operator Example
 // console.log("IS a Is Equal To b", a == b);
-// console.log("Is a Is Not Equal To B ", a != b);
-let w = 9;
-let z = 10;
+// // console.log("Is a Is Not Equal To B ", a != b);
+// let w = 9;
+// let z = 10;
 // console.log("Is W Is Equal To Z ", w == z);
 // // >, <, >=, <=
 // console.log("Is 10 > 20", a > b);
@@ -426,10 +426,63 @@ let z = 10;
 // let avg = sum / arr3.length
 //   console.log(`Avg Marks Of Class Is ${avg}`)
 
-// PRACTICE QUESTION 2 FOR 10% OFF ON EACH PRICE OF ITEMS
-// price = [100, 200, 300, 400, 500];
-// let off = 1 / 10;
-// for (let val of price) {
-//   offf = val / price;
+// // PRACTICE QUESTION 2 FOR 10% OFF ON EACH PRICE OF ITEMS
+// let items = [100, 200, 300, 400, 500];
+// let i = 0;
+
+// for (let val of items) {
+//   console.log(`Value of Items At Index ${i} = ${val}  `);
+//   let offer = val / 10;
+//   items[i] = items[i] - offer;
+//   console.log(`Value Of Items After Offer = ${items[i]}`);
+//   i++;
 // }
-// console.log(off);
+// ---------------------------------------------------------------
+// Arryays Chapter Starting ************
+// Push Method To add something at the end of an array
+
+// let arr = [1, 2, 3, 4, 5,];
+// console.log(arr);
+// arr[2] = arr.push(10)
+// console.log(arr.push(7));
+
+// POP METHOD TO DELTE SOMETHING FROM ARRAY
+// let array = [1, 2, 3, 4, 5];
+// console.log(array)
+// console.log(array.pop());
+// console.log(array);
+
+// TO STRING METHOD TO CHANGE ARRAY IN A STRING
+// let marks = [34, 21, 43, 42, 64]
+// console.log(marks)
+
+// console.log(marks.toString());
+// console.log(marks);
+
+// CONCAT METHOD TO JOIN A COMMON HERO OF 2 ARRAYS
+// let names = ["Ali", "Subhan"]
+// let marks = [2, 3]
+// let con = names.concat(marks )
+// console.log(con)
+
+// UNSHIFT METHOD IS TOTALLLY WORK LIKE PUSH (WORK IN THE START OF THE ARRAY )
+// let array = [2, 4, 5, 6, 7, 89];
+// console.log(`Array Before Addition ${array}`);
+// let add = (array.unshift(99999));
+// console.log(`Array After Addition ${add}`);
+// //  SHIFT METHOD IS TOTALLLY WORK LIKE POP [WORK IN THE START OF THE ARRAY ]
+// console.log(`Array Before Addition ${array}`);
+// console.log(array.shift());
+// console.log(`Array Before After ${array}`);
+
+// Slice (the methodolgy of slice is same as it is in string to bring a piece of Array with start and end point )
+// let array = [1, 2, 3, 4, 5]
+// let arr = array.slice(0, 3)
+// console.log(arr)
+
+// SPLICE MEHTOD
+let arr = [1, 2, 3, 4, 5];
+console.log(arr.splice(3, 1, 88));
+console.log(arr)
+let array = arr.splice(1, 2, 99, 89);
+console.log(array);
