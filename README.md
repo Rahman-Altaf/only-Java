@@ -18,4 +18,9 @@ For in Loop
 For of loop
 Strings
 Arrays
+slice 
+splice
+shift
+unshift 
+
 
