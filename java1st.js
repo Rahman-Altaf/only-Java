@@ -386,19 +386,50 @@ let z = 10;
 // **************
 // ARRAYS
 // **************
-arr = [53, 63, 24, 45, 65, 34];
-length = arr.length;
-index0 = arr[0];
-arr[2] = 66;
-for (i = 0; i <= arr.length; i++) {
-    console.log(arr[i]);
-}
-// console.log(arr);
-// console.log(length);
-console.log(index0);
+// arr = [53, 63, 24, 45, 65, 34];
+// length = arr.length;
+// index0 = arr[0];
+// arr[2] = 66;
+// for (i = 0; i <= arr.length; i++) {
+//     console.log(arr[i]);
+// }
+// // console.log(arr);
+// // console.log(length);
+// console.log(index0);
 
-if (index0 % 2 === 0) {
-  console.log("Index Of Arr 0 Is modulus Of 2");
-} else {
-  console.log("Index Of Arr 0 Is Not modulus Of 2");
-}
+// if (index0 % 2 === 0) {
+//   console.log("Index Of Arr 0 Is modulus Of 2");
+// } else {
+//   console.log("Index Of Arr 0 Is Not modulus Of 2");
+// }
+
+// TO ACCESSING THE ARRAY OF INDIVIDUAL VALUE IN ARRAY USING FOR OF LOOP
+// arr2 = [53, 63, 24, 45, 65, 34];
+// for (let element of arr2) {
+//   console.log(element);
+// }
+// // ANOTHER EXAMPLE OF FOR OF LOOP AND ARRAY
+// cities = ["Sgd", "Isb", "Lhr", "KCH", "PESR"];
+// for (let city of cities) {
+//   const upper = city.toUpperCase();
+//   console.log(upper);
+// }
+
+// PRACTICE QUESTION TO FIND OUT AVERAGE MARKS OF A CLASS IN A ARRAY
+//  FORMULA SUM OF TOTAL MARKS / NUMBER OF STUDENTS = AVG
+
+// arr3 = [55, 42, 43, 54, 65, 63];
+// let sum = 0
+// for (let val of arr3) {
+//       sum += val
+// }
+// let avg = sum / arr3.length
+//   console.log(`Avg Marks Of Class Is ${avg}`)
+
+// PRACTICE QUESTION 2 FOR 10% OFF ON EACH PRICE OF ITEMS
+// price = [100, 200, 300, 400, 500];
+// let off = 1 / 10;
+// for (let val of price) {
+//   offf = val / price;
+// }
+// console.log(off);
